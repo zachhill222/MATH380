@@ -105,7 +105,8 @@ if __name__ == '__main__':
 	types = {'float16': np.float16, 'half': np.float16,
 			 'float32': np.float32, 'float': np.float32,
 			 'float64': np.float64, 'double': np.float64,
-			 'float128': np.float128, #m
+			 'float96': np.float96,							#platform dependent
+			 'float128': np.float128, 						#platform dependent
 			 'longdouble': np.longdouble}
 	if len(sys.argv) > 3:
 		if sys.argv[3] not in types:
